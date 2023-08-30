@@ -1,0 +1,105 @@
+.main-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/black-background-with-red-blue-waves_625492-10464.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.box-container {
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(30px);
+}
+
+.password-checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+.forget{
+    color: #fff;
+    font-size: 15px;
+}
+
+.heading {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+
+.icons {
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-container-border {
+    margin-bottom: 30px;
+    border-bottom: #fff solid 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs-type {
+    outline: none;
+    border: 0px;
+    height: 29px;
+    width: 340px;
+    background-color: transparent;
+    color: #fff;
+}
+p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+button {
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    width: cover;
+    border: 0px;
+    margin-top: 20px;
+    min-width: 100%;
+    height: 30px;
+}
+
+@media all and (min-width:768px) {
+    .password-checkbox-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-container {
+        width: 40%;
+        margin: 0px;
+        border: 3px solid #fff;
+    }
+
+    .main-bg-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        min-width: 100%;
+    }
+}
